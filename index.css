@@ -1,0 +1,496 @@
+body
+{
+	position: relative;
+}
+
+.affix 
+{
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+}
+  
+.affix ~ .container-fluid 
+{
+     position: relative;
+     top: 0px;
+}
+
+.navbar 
+{
+    margin-bottom: 0px;
+    background-color: black;
+    letter-spacing: 4px;
+    color: white;
+    border:1px solid black;
+    opacity:0.9;
+    display: block;
+}
+.navbar li a, .navbar .navbar-brand 
+{ 
+    color: white ;
+}
+.navbar-nav li a:hover
+{
+	color: black ;
+	background-color: #154360;
+}
+
+.navbar-nav li.active a 
+{
+    color: #FCFAFE ;
+    background-color: #6B26B4 ;
+}
+
+#home 
+{
+	margin-top: -20px;
+	padding-top: 50px;
+	height:600px;
+	background-repeat: no-repeat;
+	background-image: url(images/r5.jpg);
+}
+
+#about 
+{
+	padding-top:50px;
+	height:600px;
+	color: black; 
+	font-size: 18px;
+}
+
+#check
+{
+  position: relative;
+  margin-left:450px;
+  margin-top: 40px;
+  height: 60px;
+  font-size: 20px;
+}
+
+#check a:link, a:visited {
+    background-color: #35A21F;
+    color: white;
+    height: 36px;
+    width: 200px;
+    border: 2px solid;
+    border-color: white;
+    padding: 3px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#check a:hover, a:active {
+    background-color: white;
+    color: #154360;
+}
+
+
+/*here begins admin login */
+
+.login{
+  position: absolute;
+  margin-left: 450px;
+  margin-top: 70px;
+  height: 150px;
+  width: 350px;
+  padding: 10px;
+  z-index: 2;
+}
+
+.login input[type=text]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid white;
+  opacity: 0.9;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+}
+
+.login input[type=password]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid white;
+  opacity: 0.9;
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.login input[type=submit]{
+  width: 250px;
+  height: 35px;
+  background-color: #154360;
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: white;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+.login input[type=submit]:hover{
+  background-color: white;
+  font-size: 16px;
+  color: #154360;
+}
+
+.login input[type=submit]:active{
+  background-color: #154360;
+  color: white;
+}
+
+.login input[type=text]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=submit]:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.8);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.8);
+}
+
+/* here begins registration  */
+
+#reg1
+{
+	width: 1366px;
+	height: 450px;
+	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+#reg1 li
+{
+	font: bold;
+	display: block;
+	height: 30px;
+}
+
+#reg2
+{
+	margin-left: 300px;
+	height: 350px;
+	
+}
+#reg2 ol
+{
+	height: 350px;
+	margin-top: 30px;
+	display: block;
+	
+}
+#reg2 label
+{
+	display:inline-block;
+	width:300px;
+	margin-top: 30px;
+	margin-right:30px;
+	text-align:right;
+}
+#reg2 li
+{
+	color: white;
+}
+
+#reg2 input[type=text]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+}
+
+#reg2 input[type=password]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=number]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=date]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=longtext]{
+  width: 250px;
+  height: 35px;
+  background: transparent;
+  border: 2px solid rgba(255,255,255,0.6);
+  border-radius: 2px;
+  color: #fff;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+
+
+#reg2 input[type=submit]{
+  width: 250px;
+  height: 35px;
+  margin-left: 120px;
+  margin-top: 120px;
+  background: #fff;
+  border: 2px solid #fff;
+  cursor: pointer;
+  border-radius: 2px;
+  color: #a18d6c;
+  font-family: 'Exo', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding: 6px;
+  margin-top: 10px;
+}
+
+#reg2 input[type=submit]:hover{
+  background-color: #154360;
+  color: white;
+  opacity: 0.9;
+}
+
+#reg2 input[type=submit]:active{
+  background-color: #154360;
+  color: white;
+  opacity: 0.6;
+}
+
+#reg2 input[type=text]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+#reg2 input[type=password]:focus{
+  outline: none;
+  border: 2px solid rgba(255,255,255,0.9);
+}
+
+#reg2 input[type=submit]:focus{
+  outline: none;
+}
+
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+
+/*<<<<<<< here begin logout >>>>>> */
+.logout
+{
+	margin-left: 1200px;
+	width: 100px;
+	margin-top: -20px;
+	position: relative;
+	display: block;
+}
+
+.logout a:link, a:visited {
+	width: 100px;
+	height: 30px;
+	font-size: 18px;
+    background-color: #35A21F;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border:2px solid white;
+}
+
+.logout a:hover, a:active {
+    background-color: white;
+    color: #154360;
+}
+
+
+
+/* here begins contact */
+.contact
+{
+	margin-top: 70px;
+	height: 500px;
+}
+
+#Names, #Emails, #Numbers
+{
+	margin-top: 30px;
+	margin-left: 150px;
+	width: 150px;
+	height: 200px;
+	float: left;
+}
+
+#common
+{
+	margin-top: 40px;
+	margin-left: 150px;
+	width: 350px;
+	height: 200px;
+	float: left;
+}
+
+
+/*here begins water world*/
+
+.Ewaterworld
+{
+	margin-top: -20px;
+	padding-top: 50px;
+	height:600px;
+	background-repeat: no-repeat;
+	background-size: 1360px;
+	background-image: url(images/p3.jpg);
+}
+
+/*here begins adventure*/
+
+.Eadventure
+{
+	margin-top: -20px;
+	padding-top: 50px;
+	height:600px;
+	background-repeat: no-repeat;
+	background-size: 1360px;
+	background-image: url(images/r1.jpg);
+}
+
+/*here begins parks */
+
+.Eparks
+{
+	margin-top: -20px;
+	padding-top: 50px;
+	height:600px;
+	background-repeat: no-repeat;
+	background-size: 1360px;
+	background-image: url(images/r4.jpg);
+}
+
+/*here begins gallery */
+
+.gallery
+{
+	padding-top: 50px;
+	height:1400px;
+	background: white;	
+}
+
+.carousel-inner > .item > img
+.carousel-inner > .item > a > img 
+
+.downg
+{
+	margin-top: 120px;
+	height: 250px;
+}
+
+.downg img
+{
+
+	height: 200px;
+	width: 224px;
+}
+
+/*here begins tourism */
+
+
+.tourism
+{
+	margin-top: -20px;
+	padding-top: 50px;
+	height:600px;
+	background-repeat: no-repeat;
+	background-image: url(images/b2.jpg);	
+}
+
+/*here begins staying */
+
+.staying
+{
+	margin-top: -20px;
+	padding-top: 50px;
+	height:600px;
+	background-repeat: no-repeat;
+	background-image: url(images/b1.jpg);	
+}
+
+/*here begins visit */
+
+.visit
+{
+	margin-top: -20px;
+	padding-top: 50px;
+	height:600px;
+	background-repeat: no-repeat;
+	background-image: url(images/i7.jpg);	
+}
+
+
